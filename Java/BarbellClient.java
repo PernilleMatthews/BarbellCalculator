@@ -4,10 +4,13 @@ public class BarbellClient {
     private static int barbellWeight;
     private static double totalWeight;
     private static double newWeight;
+    private static double weight;
     private static Scanner input;
     private static WeightPlate[] plates;
-    private static double weight;
 
+    /**
+     * Main program.
+     */
 
     public static void main(String[] args) {
         input = new Scanner(System.in);
