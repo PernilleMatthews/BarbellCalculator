@@ -11,7 +11,6 @@ public class BarbellClient {
     /**
      * Main program.
      */
-
     public static void main(String[] args) {
         input = new Scanner(System.in);
         init(); // Prompt user for weight.   
@@ -31,9 +30,9 @@ public class BarbellClient {
     }
     
     /*
-    * Calculate how much weight must be distributed between the two
-    * sides of the barbell (excluding the barbell weight)
-    */
+     * Calculate how much weight must be distributed between the two
+     * sides of the barbell (excluding the barbell weight)
+     */
     private static void calculateNewWeight() {
         newWeight = (totalWeight - barbellWeight) / 2;
         System.out.println("You need: " + newWeight + "kg on each side. You can achieve this by adding:");
